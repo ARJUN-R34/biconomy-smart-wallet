@@ -1,0 +1,77 @@
+html {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+section {
+  margin: 20px 20px 20px 20px;
+}
+
+.status-tab {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+p {
+  text-align: center;
+  color: rgb(102, 95, 95);
+}
+
+.info-text {
+  font-size: 1.1em;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+h2 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.row {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+hr {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card-title {
+  font: 1.2em sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+#logo-container {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+#logo-text {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}

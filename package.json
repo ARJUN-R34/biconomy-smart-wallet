@@ -1,0 +1,57 @@
+{
+  "name": "smart-wallet",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://arjun-r34.github.io/smart-wallet",
+  "dependencies": {
+    "@biconomy/account": "^3.1.1-alpha.0",
+    "@biconomy/bundler": "^3.1.1-alpha.0",
+    "@biconomy/common": "^3.1.1-alpha.0",
+    "@biconomy/core-types": "^3.1.1-alpha.0",
+    "@biconomy/paymaster": "^3.1.1-alpha.0",
+    "@passwordless-id/webauthn": "^1.2.6",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "crypto-browserify": "^3.12.0",
+    "ethers": "^5.7.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.7.4",
+    "uuid": "^9.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-app-rewired start",
+    "build": "rm -rf build && react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "gh-pages": "^6.0.0",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1"
+  }
+}

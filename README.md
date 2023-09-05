@@ -35,7 +35,7 @@ git clone https://github.com/ARJUN-R34/biconomy-smart-wallet.git
 
 Install dependencies and run the app
 ```bash
-npm i  && npm run start
+npm i && npm run start
 ```
 
 The UI will be live on http://localhost:3000
